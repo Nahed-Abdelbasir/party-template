@@ -1,0 +1,276 @@
+/*========================= start my framework =======================*/
+
+body
+{
+    font-family: "Helvetica " , "Arial";
+}
+.font-14
+{
+    font-size: 14px;
+}
+.font-18
+{
+    font-size: 18px;
+}
+.font-19
+{
+    font-size: 19px;
+}
+.font-20
+{
+    font-size: 20px;
+}
+.font-24
+{
+    font-size: 24px;
+}
+.font-25
+{
+    font-size: 25px;
+}
+.font-30
+{
+    font-size: 30px;
+}
+.font-35
+{
+    font-size: 35px;
+}
+.font-60
+{
+    font-size: 60px;
+}
+.main-color
+{
+    color: rgb(214, 46, 51);
+}
+.main-bgcolor
+{
+    background-color: rgb(214, 46, 51);
+}
+
+
+/*======================== end my framework ==========================*/
+/*=========================== start header ===========================*/
+
+header
+{
+    background-image: url(../images/bg1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+header .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(214, 46, 51, .6);
+    z-index: 2;
+}
+header nav 
+{
+    position: absolute;
+    width: 250px;
+    top: 0;
+    bottom: 0;
+    z-index: 5555555555;
+}
+header nav .links
+{
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(65, 70, 88);
+    overflow: hidden;
+}
+header nav .links .closebtn
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    right: 7px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+header nav .links .closebtn div
+{
+    width: 18px;
+    height: 3.4px;
+    background-color: #fff;
+}
+header nav .links .closebtn div:first-of-type
+{
+    position: relative;
+    top: 3.4px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+header nav .links .closebtn div:last-of-type
+{
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+header nav .links .closebtn:hover div
+{
+    background-color: rgb(214, 46, 51 , .4);
+}
+header nav ul li
+{
+    padding: 19px 30px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+header nav ul li:hover
+{
+    color: rgb(214, 46, 51 , .4);
+}
+header nav .open-menu
+{
+    position: absolute;
+    width: 150px;
+    top: 48.666%;
+    left: 15px;
+    cursor: pointer;
+}
+header nav .open-menu .menu
+{ 
+    padding-top: 6px;
+    padding-right: 5px;
+}
+header nav .open-menu .menu div
+{
+    width: 22px;
+    height: 3px;
+    margin: 6px;
+    background-color: #fff;
+}
+header .caption
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 210px auto;
+    z-index: 11111;
+}
+
+
+/*============================ end header ============================*/
+/*=========================== start details ==========================*/
+
+.details .details-box
+{
+    width: 62%;
+    margin: auto;
+}
+.details .details-box .details-item .details-header h3
+{
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+}
+.details .details-box .details-item .details-text p
+{
+    margin-bottom: 0;
+    background-color: rgb(204, 204, 204);  
+}
+
+
+/*============================ end details ===========================*/
+/*=========================== start duration =========================*/
+
+.duration
+{
+    background-image: url(../images/bg2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.duration .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(214, 46, 51, .6);
+    
+}
+.duration .item
+{
+    border: 1px solid #fff;
+}
+
+/*=========================== start duration =========================*/
+/*=========================== start contact ==========================*/
+
+.contact h2 , .contact h4
+{
+    color: #444;
+}
+.contact p , .contact ul li , .contact .social i
+{
+    color: #777;
+}
+.contact .social i
+{
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #777;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+.contact .social .fa-facebook-f
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contact .social .fa-google-plus-g
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.contact .social i:hover
+{
+    color: #fff;
+    background-color: rgba(214, 46, 51);
+    border: 1px solid rgba(214, 46, 51);
+}
+.contact .contact-form input , .contact .contact-form textarea 
+{
+    width: 100%;
+    border: 1px solid #bbb ;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 1px .5px #eee inset;
+    box-shadow: 0px 1px .5px #eee inset;
+}
+.contact .contact-form input::-webkit-input-placeholder , .contact .contact-form textarea::-webkit-input-placeholder
+{
+    color: #999;
+    font-weight: 600;
+}
+.contact .contact-form input:-ms-input-placeholder , .contact .contact-form textarea:-ms-input-placeholder
+{
+    color: #999;
+    font-weight: 600;
+}
+.contact .contact-form input::placeholder , .contact .contact-form textarea::placeholder
+{
+    color: #999;
+    font-weight: 600;
+}
+.contact .contact-form button
+{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/*=========================== end contact ===========================*/
